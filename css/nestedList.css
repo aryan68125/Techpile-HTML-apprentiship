@@ -20,3 +20,17 @@
     margin-bottom: 15px;
     font-size: 18px;
 }
+.ticker-down li{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.ticker-left li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+}
+.ticker-right li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+}
