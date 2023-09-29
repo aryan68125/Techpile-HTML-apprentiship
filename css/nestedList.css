@@ -34,7 +34,11 @@
     font-size: 18px;
     line-height: 40px;
 }
-
+.marquee-alternate li{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+}
 .nested-list-example-three-color-one{
     color : #5dacbd;
 }

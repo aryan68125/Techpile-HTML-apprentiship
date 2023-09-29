@@ -35,7 +35,7 @@
 <ul type = "square">
 <li>
 <h3>Ticker up marquee</h3>
-<marquee class="normal-marquee-background ticker-up" direction="up" height = "40px;">
+<marquee class="normal-marquee-background ticker-up" direction="up" height = "40px;" onmouseover = "stop()" onmouseleave = "start()">
 <ul type="none">
 <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
 <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
@@ -79,17 +79,22 @@
 </ul>
 </marquee>
 </li>
-</ul>
-</div>
 <!--Ticker Marquee start-->
 
 <!--Marquee with easing function start-->
-<!--TODO start from here your marquee with easing function is left out-->
-<div>
-<h3>Marquee with easing function</h3>
-<marquee direction="left"></marquee>
-</div>
+<li>
+<h3>Marquee with alternate attribute</h3>
+<marquee direction="left" behavior="alternate" class="marquee-alternate normal-marquee-background" scrollamount="50">
+<ul type="none"><li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
+<li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+<li>Donate: If you use this site regularly and would like to help keep the site on the Internet,</li>
+<li>please consider donating a small sum to help pay.</li>
+</ul>
+</marquee>
+</li>
 <!--Marquee with easing function end-->
+</ul>
+</div>
 <!--marquee animation end-->
 
 <center><h1>Nested List demo</h1></center>
