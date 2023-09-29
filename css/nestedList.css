@@ -34,3 +34,19 @@
     font-size: 18px;
     line-height: 40px;
 }
+
+.nested-list-example-three-color-one{
+    color : #5dacbd;
+}
+.nested-list-example-three-color-two{
+    color : #c24d2c;
+}
+.nested-list-example-three-color-three{
+    color : #6643b5;
+}
+.nested-list-example-three-color-four{
+    color : #42b883;
+}
+.nested-list-example-three-color-five{
+    color : #f1b963;
+}
