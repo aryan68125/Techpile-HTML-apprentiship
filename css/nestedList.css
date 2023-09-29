@@ -1,0 +1,22 @@
+.header_background{
+    background : #e46161;
+}
+.text-right{
+    text-align:right;
+}
+.text-left{
+    text-align:left;
+}
+.ordered_list_decimal_leading_zero{
+    list-style-type: decimal-leading-zero;
+}
+.normal-marquee-background{
+    background : #347474;
+}
+.ticker-marquee-background{
+    background : #6643b5;
+}
+.ticker-up li{
+    margin-bottom: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>NestedList and Marquee hw</title>
+<link href="../../images/app.png" rel="icon"/>
+<link href="../../css/bootstrap.css" rel="stylesheet"/>
+<link href="../../css/nestedList.css" rel="stylesheet"/>
+</head>
+<body>
+<!--Header start-->
+<div class="row header_background ms-5 me-5 text-center ps-5">
+<div class="col-lg-6 col-sm-12"></div>
+<div class="col-lg-6 col-sm-12 ps-5">
+<div class="row text-right pe-3"><h1>Nested list & Marquee demo</h1></div>
+<div class="row text-left ps-5"><h4>By Aditya Kumar</h4></div>
+</div>
+</div>
+<!--Header end-->
+
+<!--marquee animation start-->
+<center><h1>Marquee demo</h1></center>
+<marquee direction="right" vspace="50px" scrollamount = "30">
+<img src = "../../images/car.png"/>
+</marquee>
+
+<div class="row ms-5 me-5">
+<h1>Normal marquee</h1>
+<marquee class="normal-marquee-background">
+<h1>Normal marquee</h1>
+</marquee>
+</div>
+
+<div class="row ms-5 me-5">
+<h1>Ticker marquee</h1>
+<ul type = "square">
+<li>
+<h3>Ticker up marquee</h3>
+<marquee class="normal-marquee-background ticker-up" direction="up" height = "40px;">
+<ul type="none">
+<li>Python</li>
+<li>numpy</li>
+<li>Pandas</li>
+<li>Scikit.learn</li>
+<li>Tensorflow</li>
+</ul>
+</marquee>
+</li>
+</ul>
+</div>
+<!--marquee animation end-->
+
+<center><h1>Nested List demo</h1></center>
+<!--Unordered list start-->
+<h3>Unordered list</h3>
+<ul type="none">
+<li>Disc
+<ul type="disc">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+</li>
+
+<li>Square
+<ul type="square">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+</li>
+
+<li>Circle
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+</li>
+
+<li>None - no bullet points
+<ul type="none">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+</li>
+</ul>
+<!--Unordered list end-->
+
+<!--Ordered list start-->
+<h3>Ordered list</h3>
+<ul type="none">
+<li>Decimal
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+
+<li>Decimal with leading zeros
+<ol class="ordered_list_decimal_leading_zero">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+
+<li>Lowercase ascii letters
+<ol type="a">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+
+<li>Uppercase ascii letters
+<ol type="A">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+
+<li>Lowercase Roman numerals
+<ol type="i">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+
+<li>Uppercase Roman Numerals
+<ol type="I">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+</li>
+</ul>
+<!--Ordered list end-->
+
+</body>
+</html>

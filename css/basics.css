@@ -1,0 +1,82 @@
+/*Maths formulas starts*/
+.image_one{
+    width : 50px;
+    height : 50px;
+}
+.background{
+    color : #FFFFFF;
+    background : #000000;
+}
+.font_one{
+    font-family : "Herculanum";
+}
+.font_maths{
+    color : #f95959;
+}
+/*Maths formulas ends*/
+
+/*
+Font text demo starts
+*/
+.font_text_demo{
+    color : #ff9a3c;
+}
+.font_two{
+    font-family : "Luminari";
+}
+.font_text_demo_three{
+    color : #c3195d;
+}
+.font_three{
+    font-family : "Papyrus";
+}
+.font_text_color{
+    color : #53a8b6;
+}
+.font_text_color_two{
+    color : #97cba9;
+}
+.font_four{
+    font-family : "Phosphate";
+}
+.font_five{
+    font-family : "SignPainter";
+}
+.font_color_one{
+    color : #7c73e6;
+}
+/*
+Font text demo ends
+*/
+
+/*Maths formula part 2*/
+.Maths_text_font_one{
+    font-family : "Noteworthy";
+}
+.Maths_text_color_one{
+    color : #a2c11c;
+}
+.Math_text_color_two{
+    color : #007cb9;
+}
+
+/*It will remove any dcorations from unordered list*/
+ul li{
+    list-style-type: none;
+    margin : 0px;
+    padding : 0px;
+}
+/*Maths formula part 2*/
+
+/*
+Chemistry start
+*/
+.chemistry_color_one{
+    color : #f8da5b;
+}
+.chemistry_text_font{
+    font-family : "Trattatello";
+}
+/*
+Chemistry ends
+*/
