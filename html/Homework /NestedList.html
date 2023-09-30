@@ -18,13 +18,15 @@
 
 <!--marquee animation start-->
 <center><h1>Marquee demo</h1></center>
+<center><a href="../anchortag.html">Go back</a></center>
+<center><a href="../classwork/animation2.html">open animation2</a></center>
 <marquee direction="right" vspace="50px" scrollamount = "30">
 <img src = "../../images/car.png"/>
 </marquee>
 
 <div class="row ms-5 me-5">
 <h1>Normal marquee</h1>
-<marquee class="normal-marquee-background">
+<marquee class="normal-marquee-background" onmouseover = "stop()" onmouseleave = "start()">
 <h1>Normal marquee</h1>
 </marquee>
 </div>
@@ -47,7 +49,7 @@
 
 <li>
 <h3>Ticker down marquee</h3>
-<marquee class="normal-marquee-background ticker-down" direction="down" height = "40px;">
+<marquee class="normal-marquee-background ticker-down" direction="down" height = "40px;" onmouseover = "stop()" onmouseleave = "start()">
 <ul type="none">
 <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
 <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
@@ -59,7 +61,7 @@
 
 <li>
 <h3>Ticker left marquee</h3>
-<marquee class="normal-marquee-background ticker-left" direction="left" height = "40px;">
+<marquee class="normal-marquee-background ticker-left" direction="left" height = "40px;" onmouseover = "stop()" onmouseleave = "start()">
 <ul type="none">
 <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
 <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
@@ -71,7 +73,7 @@
 
 <li>
 <h3>Ticker right marquee</h3>
-<marquee class="normal-marquee-background ticker-right" direction="right" height = "40px;">
+<marquee class="normal-marquee-background ticker-right" direction="right" height = "40px;" onmouseover = "stop()" onmouseleave = "start()">
 <ul type="none"><li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
 <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
 <li>Donate: If you use this site regularly and would like to help keep the site on the Internet,</li>
@@ -84,7 +86,7 @@
 <!--Marquee with easing function start-->
 <li>
 <h3>Marquee with alternate attribute</h3>
-<marquee direction="left" behavior="alternate" class="marquee-alternate normal-marquee-background" scrollamount="50">
+<marquee direction="left" behavior="alternate" class="marquee-alternate normal-marquee-background" scrollamount="50" onmouseover = "stop()" onmouseleave = "start()">
 <ul type="none"><li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
 <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
 <li>Donate: If you use this site regularly and would like to help keep the site on the Internet,</li>

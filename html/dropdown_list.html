@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<body>
+<h1>Drop down list</h1>
+<!--<select onchange = "demo(this)" multiple control>-->
+<select onchange = "demo(this)" control>
+<!--<select  multiple>-->
+<option>--select course--</option>
+<option selected value="ST">Summer training</option>
+<option value = "WT">Winter training</option>
+<option value="APP">Apprentiship</option>
+<option>Industrial training</option>
+<option disabled>IT training</option>
+</select>
+</body>
+</html>
+<script>
+function demo(x){
+    alert(x.value)
+}
+</script>
