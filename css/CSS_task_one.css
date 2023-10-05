@@ -1,0 +1,56 @@
+.text_left{
+    text-align : left;
+}
+.text_right{
+    text-align: right ;
+}
+.text_center{
+    text-align: center;
+}
+.text_justify{
+    text-align : justify;
+}
+
+.background-yellow{
+    background : yellow;
+}
+.heading-color{
+    color:red;
+}
+.border-color{
+    border : 10px groove red;
+    border-radius: 0px 0px 0px 20px;
+}
+
+/*text-shadow property*/
+.text-custom1{
+    font-size : 350;
+    text-align: center;
+    font-family : impact;
+    text-transform : uppercase ;
+    color : grey;
+    text-shadow : 30px 30px 20px black, 35px 35px 20px red;
+}
+
+/*Box shadow property*/
+/*.box-custom{*/
+/*    color:grey;*/
+/*    border : 20px groove grey;*/
+/*    text-align : center;*/
+/*    font-size : 180px;*/
+/*    box-shadow : 20px 20px 10px black inset , 20px 20px 10px black ;*/
+/* }*/
+/*.box-custom{*/
+/*    color:grey;*/
+/*    border : 20px groove grey;*/
+/*    text-align : center;*/
+/*    font-size : 180px;*/
+/*    box-shadow : 20px 20px 10px 30px black ;*/
+/*}*/
+.box-custom{
+    color:grey;
+    border : 20px groove grey;
+    text-align : center;
+    font-size : 180px;
+    box-shadow : 20px 20px 10px black ;
+}

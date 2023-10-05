@@ -1,0 +1,36 @@
+/*Tag selector
+/*h1{
+color : white;
+background : green;
+}
+p{
+color : white;
+background : red;
+font-size : 24px;
+}
+*/
+
+/*Group selector
+p,h1{
+    color : white;
+    background : green;
+}
+*/
+
+.text-justify{
+    text-align : justify;
+}
+.text-left{
+    text-align : left;
+}
+.text-right{
+    text-align : right;
+}
+.text-center{
+    text-align : center;
+}
+
+p{
+/*    writing-mode : vertical-lr;*/
+/*    writing-mode : vertical-rl;*/
+}
