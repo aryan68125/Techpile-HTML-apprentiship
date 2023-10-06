@@ -1,0 +1,98 @@
+/*example 1 start*/
+.heading-color{
+    background:red;
+    color:white;
+    border : 5px solid black;
+    box-shadow : 10px 10px 20px red ;
+    border-radius : 20px 20px 20px 20px;
+    padding : 5px;
+    text-shadow : 10px 10px 10px black;
+}
+/*example 1 end*/
+
+/*example 2 start*/
+.heading-color-2{
+    background:blue;
+    color:white;
+    border : 5px solid black;
+    box-shadow : 10px 10px 20px blue ;
+    border-radius : 20px 20px 20px 20px;
+    padding : 5px;
+    text-shadow : 10px 10px 10px black;
+    text-align : right;
+}
+.heading-color-3{
+    background:blue;
+    color:white;
+    border : 5px solid black;
+    box-shadow : 10px 10px 20px blue ;
+    border-radius : 20px 20px 20px 20px;
+    padding : 5px;
+    text-shadow : 10px 10px 10px black;
+    text-align : right;
+}
+.para-color-1{
+    background:green;
+    color:white;
+    border : 5px solid black;
+    box-shadow : 10px 10px 20px green ;
+    border-radius : 20px 20px 20px 20px;
+    padding : 5px;
+    font-size : 50px;
+    text-align:center;
+    text-shadow : 10px 10px 10px black;
+}
+.para-color-2{
+    background:green;
+    color:white;
+    border : 5px solid black;
+    box-shadow : 10px 10px 20px green ;
+    border-radius : 20px 20px 20px 20px;
+    padding : 5px;
+    font-size : 50px;
+    text-align:center;
+    text-shadow:10px 10px 10px black;
+}
+/*example 2 end*/
+
+/*example 3 starts*/
+.image-style{
+    width: 300px;
+    height : 300px;
+    border : 3px solid black;
+    box-shadow : 10px 10px 10px black;
+}
+/*example 3 ends*/
+
+/*example 4 starts*/
+.inter-vs-external-vs-inline{
+    font-size : 20px;
+    background : red !important;
+    color : white !important;
+    text-align:center !important;
+    border : 3px solid black !important;
+}
+/*example 4 ends*/
+
+/*example 5 starts*/
+.google-style{
+    text-align : center;
+    font-size : 100px;
+    text-shadow : 10px 10px 10px black;
+}
+/*example 5 ends*/
+
+/*example 6 starts*/
+.example-6-style{
+    border : 10px solid black;
+    color : blue ;
+    font-size : 60px;
+    text-align : center;
+}
+.example-6-style:hover{
+  color : white;
+  background : green;
+  border : 10px solid yellow;
+  transition : border 2s ,color 5s , background 10s;
+}
+/*example 6 ends*/
