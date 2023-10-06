@@ -88,11 +88,14 @@
     color : blue ;
     font-size : 60px;
     text-align : center;
+    transition:all 3s;
 }
 .example-6-style:hover{
   color : white;
   background : green;
   border : 10px solid yellow;
-  transition : border 2s ,color 5s , background 10s;
+  border-radius : 60px;
+  transition : border 2s ,color 8s , background 20s, border-radius 4s;
 }
+
 /*example 6 ends*/
