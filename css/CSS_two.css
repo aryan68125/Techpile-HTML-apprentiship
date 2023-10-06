@@ -34,8 +34,8 @@ Dialog box styling end
     box-shadow : 10px 10px red inset;
 }
 .shadow-box-six{
-    border : 7px solid black;
-    box-shadow : 7px 7px green inset, 7px 7px red , -7px -7px violet ,-14px -14px blue;
+    border : 1px solid black;
+    box-shadow : 5px 5px violet inset,7px 7px 5px yellow inset, 15px 15px green inset, 7px 7px red ,0px 4px 2px yellow,3px 0px 2px yellow,-14px -14px blue;
 }
 .shadow-box-seven{
     border : 7px solid black;
