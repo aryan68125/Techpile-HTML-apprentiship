@@ -1,0 +1,94 @@
+/*example one starts*/
+.heading-column-one-row-one{
+    border : 10px solid #64D498;
+    text-align:center;
+}
+.heading-column-one-row-two{
+    border : 10px double #64D498;
+    text-align:center;
+}
+.heading-column-one-row-three{
+    border : 10px ridge #64D498;
+    text-align:center;
+}
+
+.heading-column-two-row-one{
+    border : 10px dashed #64D498;
+    text-align:center;
+}
+.heading-column-two-row-two{
+    border : 10px groove #64D498;
+    text-align:center;
+}
+.heading-column-two-row-three{
+    border : 10px inset #64D498;
+    text-align:center;
+}
+
+.heading-column-three-row-one{
+    border : 10px dotted #64D498;
+    text-align:center;
+}
+.heading-column-three-row-two{
+    border : 10px none #64D498;
+    text-align:center;
+}
+.heading-column-three-row-three{
+    border : 10px outset #64D498;
+    text-align:center;
+}
+/*example one ends*/
+
+/*example two starts*/
+.outer-border-blue{
+    border : 3px solid blue;
+    width : 480px;
+}
+.inner-border-red{
+    border : 3px solid red;
+    border-radius : 30px 30px 30px 30px;
+    text-align : justify;
+}
+/*example two ends*/
+
+/*example 3 starts*/
+.example-3-border{
+    border : 3px solid grey;
+    width : 800px;
+}
+.image-container{
+    width : 800px;
+    border-radius : 7px;
+}
+.image-border-style{
+    border : 4px dotted red;
+    width : 810px;
+    border-radius : 7px;
+}
+.box-shadow-rounded{
+    box-shadow : 10px 10px 0px yellow , -10px -10px 0px yellow;
+    border-radius : 20px;
+    width : 810px;
+}
+/*example 3 ends*/
+
+/*example 4 starts*/
+.width-div{
+    width : 150px;
+}
+.color-aqua{
+    color : aqua;
+}
+.color-violet{
+    color : #7030A0;
+}
+
+.color-primary{
+    background : yellow;
+    color : black;
+}
+.color-secondary{
+    background : black;
+    color : yellow;
+}
+/*example 4 ends*/
