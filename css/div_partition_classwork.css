@@ -1,0 +1,23 @@
+/*example 1*/
+.row1-example1
+{
+    border : 2px solid red;
+    height: 400px;
+}
+.row2-example1
+{
+    border : 2px solid red;
+    height: 50px;
+}.row3-example1
+{
+    height: 300px;
+}.row4-example1
+{
+    border : 2px solid red;
+    height: 50px;
+}
+.row5-example1{
+    box-shadow:10px 0px 0px 0px blue inset, -10px 0px 0px 0px blue inset;
+    height: 300px;
+}
+/*example 1*/
