@@ -1,0 +1,103 @@
+.box-parent{
+    background : yellow;
+    width : 1000px
+}
+.box1{
+height : 400px;
+width : 480px;
+background : red;
+float:left;
+}
+.box2{
+    height : 400px;
+    width : 480px;
+    background : green;
+    float:right;
+}
+
+/*example 2 start*/
+.outer-box-top-example2{
+    background : grey;
+    width : 900px;
+    height : 200px;
+}
+.outer-box-bottom-example2{
+    background : black;
+    width : 900px;
+    height : 200px;
+}
+.innter-box-left-bottom{
+    background : red;
+    width : 450px;
+    height : 200px;
+    float : left;
+}
+.innter-box-right-bottom{
+    background : green;
+    width : 450px;
+    height : 200px;
+    float : right;
+}
+/*example 2 end*/
+
+/*example 3 start*/
+.outer-box1-example-3{
+    background : grey;
+    width : 900px;
+    height : 50px;
+}
+.outer-box2-example-3{
+    background : grey;
+    width : 900px;
+    height : 100px;
+    text-align: center;
+    line-height : 100px;
+}
+.outer-box3-example-3{
+    background : blue;
+    width : 900px;
+    height : 300px;
+}
+.outer-box4-example-3{
+    background : green;
+    width : 900px;
+    height : 50px;
+    color:white;
+    text-align: center;
+    line-height : 50px;
+}
+
+.inner-box1-outer1-example-3{
+    background : orange;
+    width : 150px;
+    height : 50px;
+    float:left;
+    text-align: center;
+    line-height : 50px;
+}
+.inner-box2-outer1-example-3{
+    background : red;
+    width : 750px;
+    height : 50px;
+    float:right;
+    text-align: center;
+    line-height : 50px;
+}
+.inner-box1-outer3-example-3{
+    background : aqua;
+    width : 650px;
+    height : 300px;
+    float:left;
+    text-align: center;
+    line-height : 300px;
+}
+.inner-box2-outer3-example-3{
+    background : navy;
+    width : 250px;
+    height : 300px;
+    float:right;
+    color:white;
+    text-align: center;
+    line-height : 300px;
+}
+/*example 3 end*
