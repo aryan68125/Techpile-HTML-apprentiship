@@ -1,0 +1,21 @@
+.background-picture{
+    background:url("../images/vid_thumbnail.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    font-size:100px;
+    text-align:center;
+    color:red;
+    line-height:600px;
+}
+.outer{
+    height:800px;
+    width:1300px;
+}
+.transparent-color{
+    height:800px;
+    width:800px;
+    background:rgba(102, 67, 181, 0.6);
+    text-size : 30px;
+    color:white;
+    text-align:center;
+}

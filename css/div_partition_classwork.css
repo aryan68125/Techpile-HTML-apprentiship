@@ -21,3 +21,36 @@
     height: 300px;
 }
 /*example 1*/
+
+/*example 2 starts*/
+.row1-example2{
+    border:2px solid blue;
+    height: 600px;
+    width: 600px;
+}
+.col1-example2{
+    border:2px solid blue;
+    height: 600px;
+}
+.row2-example2{
+    height:200px;
+    border:2px solid blue;
+}
+.row3-example2{
+    height:50px;
+    border:2px solid blue;
+}
+.row4-example2{
+    height:100px;
+    border:2px solid blue;
+}
+.background-corner{
+    background:red;
+}
+.background-middle-edge{
+    background:yellow;
+}
+.background-center-box{
+    background:green;
+}
+/*example 2 ends*/
