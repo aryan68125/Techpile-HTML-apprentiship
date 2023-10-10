@@ -1,0 +1,90 @@
+.image-bg{
+    background:url(../images/todoroki.jpg);
+    background-size:cover;
+    height:800;
+    align:center;
+}
+.boxes-border{
+    border:3px solid grey;
+}
+.row-height{
+    height:100px;
+    align:center;
+
+}
+.row2-height{
+    height:80px;
+    align:center;
+    border:3px solid grey;
+}
+
+/*gradient color bg starts here*/
+.bg1-linear-gradient-rotate-30deg{
+    background:linear-gradient(30deg,red,blue);
+    height:80px;
+}
+.bg1-linear-gradient-rotate-0deg{
+    background:linear-gradient(0deg,red,blue);
+    height:80px;
+}
+.bg1-linear-gradient-rotate-90deg{
+    background:linear-gradient(90deg,red,blue);
+    height:80px;
+}
+
+.bg2-repeating-linear-gradient{
+    background:repeating-linear-gradient(aqua 10%,red 20%);
+    height:80px;
+}
+.bg2-repeating-linear-gradient-rotate-30deg{
+    background:repeating-linear-gradient(30deg,aqua 10%,red 20%);
+    height:80px;
+}
+.bg2-repeating-linear-gradient-rotate-90deg{
+    background:repeating-linear-gradient(90deg,aqua 10%,red 20%);
+    height:80px;
+}
+.bg2-repeating-linear-gradient-rotate-180deg{
+    background:repeating-linear-gradient(180deg,aqua 10%,red 20%);
+    height:80px;
+}
+.bg2-repeating-linear-gradient-rotate-270deg{
+    background:repeating-linear-gradient(270deg,aqua 10%,red 20%);
+    height:80px;
+}
+
+.bg3-radial-gradient{
+    background:radial-gradient(red,orange,yellow);
+}
+.bg3-radial-gradient-circle{
+    background:radial-gradient(circle,red,orange,yellow);
+}
+.bg3-radial-gradient-circle-center-change-left-bottom{
+    background:radial-gradient(circle at left bottom,red,orange,blue);
+}
+
+.bg3-radial-gradient-circle-center-change-top-right{
+    background:radial-gradient(circle at top right,red,orange,blue);
+}
+.bg3-radial-gradient-circle-center-change-x30-y90{
+    background:radial-gradient(circle at 30% 90%,red,orange,blue);
+}
+
+.bg3-repeating-radial-gradient-circle-center-change-x30-y90{
+    background:repeating-radial-gradient(circle at 30% 90%,red 10%,orange 20%,blue 10%);
+}
+
+.bg4-conic-gradient{
+    background:conic-gradient(red,orange,blue,red);
+}
+.bg4-repeating-conic-gradient{
+    background:repeating-conic-gradient(red 10%,orange 10%,blue 20%,red 10%);
+}
+.bg5-repeating-conic-gradient-rotate20deg{
+    background:repeating-conic-gradient(red 20deg,red 10%,orange 10%,blue 20%,red 10%);
+}
+
+.bg5-repeating-conic-gradient-rotate20deg-transparent{
+    background:repeating-conic-gradient(rgba(255,255,255,.6) 20deg,rgba(0,0,0,.6) 10%,rgba(45,90,180,.6) 10%,rgba(70,88,69,.6) 20%,rgba(23,45,117,.6) 10%);
+}
+/*gradient color bg ends here*/
