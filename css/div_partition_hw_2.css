@@ -1,0 +1,204 @@
+/*example 1 starts*/
+.row1-example1{
+    border:2px solid red;
+    height:600px;
+    width:1000px;
+}
+.row2-example1{
+    border:2px solid red;
+    height:100px;
+}
+.row3-example1{
+    border:2px solid red;
+    height:400px;
+}
+.row4-example1{
+    border:2px solid red;
+    height:50px;
+}
+.row5-example1{
+    border:2px solid red;
+    height:200px;
+}
+/*example 1 ends*/
+
+/*example 2 starts*/
+.row1-example2{
+    border:2px solid red;
+    height:600px;
+    width:1000px;
+}
+.row2-example2{
+    border:2px solid red;
+    height:100px;
+}
+.row3-example2{
+    border:2px solid red;
+    height:400px;
+}
+.row4-example2{
+    border:2px solid red;
+    height:170px;
+}
+.row5-example2{
+    border:2px solid red;
+    height:80px;
+}
+.row6-example2{
+    border:2px solid red;
+    height:420px;
+}
+/*example 2 ends*/
+
+/*example 3 starts*/
+.row1-example3{
+    border:2px solid grey;
+    height:600px;
+    width:1000px;
+}
+.row2-example3{
+    border:2px solid grey;
+    height:150px;
+}
+.row2-background-example3{
+    background : red;
+    height:150px;
+}
+.row3-example3{
+    border:2px solid grey;
+    height:75px;
+}
+.row4-background-example3{
+    background:#ED9544;
+    height:75px;
+}
+.row5-background-example3{
+    background:#F7C693;
+    height:75px;
+}
+/*example 3 ends*/
+
+/*example 4 starts*/
+.row1-example4{
+    border:2px solid grey;
+    height:600px;
+    width:1000px;
+}
+.row2-example4{
+    border:2px solid grey;
+    height:100px;
+}
+.row3-example4{
+    border:2px solid grey;
+    height:400px;
+}
+.row4-example4{
+    border:2px solid grey;
+    height:200px;
+}
+.bg1{
+    background:#205B7B;
+}
+.bg2{
+    background:#2C779D;
+}
+.bg3{
+    background:#81CEF3;
+}
+.bg4{
+    background:#AEC3DE;
+}
+/*example 4 ends*/
+
+/*example 5 starts*/
+.row1-example5{
+    border:2px solid grey;
+    height:600px;
+    width:1000px;
+}
+.row2-example5{
+    border:2px solid grey;
+    height:50px;
+}
+.row3-example5{
+    border:2px solid grey;
+    height:100px;
+}
+.row4-example5{
+    border:2px solid grey;
+    height:350px;
+}
+.row5-example5{
+    border:2px solid grey;
+    height:50px;
+}
+.row6-example5{
+    border:2px solid grey;
+    height:175px;
+}
+.bg1{
+    background:red;
+}
+.bg2{
+    background:#E47883;
+}
+.bg3{
+    background: #E17BAC;
+}
+.bg4{
+    background:#002D8D;
+}
+.bg5{
+    background:#85A9D5;
+}
+.bg6{
+    background:#873C8C;
+}
+.bg7{
+    background:#8586B9;
+}
+.bg8{
+    background:#0A396C;
+}
+.bg9{
+    background:#2B779E;
+}
+/*example 5 ends*/
+
+/*example 6 starts*/
+.row1-example6{
+    border:2px solid grey;
+    height:600px;
+    width:1000px;
+}
+.row2-example6{
+    border:2px solid grey;
+    height:300px;
+}
+.row3-example6{
+    border:2px solid grey;
+    height:150px;
+}
+.row4-example6{
+    border:2px solid grey;
+    height:37px;
+}
+.bg1{
+    background:#B3CD7E;
+}
+.bg2{
+    background:#479E57;
+}
+.bg3{
+    background:#23552B;
+}
+.bg4{
+    background:#5D3B1D;
+}
+.bg5{
+    background:#876140;
+}
+.bg6{
+    background:#C29D74;
+}
+/*example 6 ends*/
