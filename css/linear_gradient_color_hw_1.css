@@ -1,0 +1,139 @@
+/*example 1 starts*/
+.bg1-linear-gradient-diagonal{
+    background:linear-gradient(45deg,red,yellow,green);
+    height:200px;
+    width:200px;
+}
+.mid-text{
+    line-height : 100px;
+}
+/*example 1 ends*/
+
+/*example 2 starts*/
+.bg2-radial-gradient{
+    background:repeating-conic-gradient(red 20deg,red 10%,orange 10%,yellow 20%,red 10%);
+    height:400px;
+    width:400px;
+}
+/*example 2 ends*/
+
+/*example 3 starts*/
+.row1-example3{
+    background:#001255;
+    height:650px;
+    width:650px;
+}
+.col-example3{
+    height:130px;
+}
+.col1-example3{
+    height:130px;
+}
+.bg1-example3{
+    background:linear-gradient(30deg,#4D64C8,#B963BE,#F2BE87);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg2-example3{
+    background:linear-gradient(180deg,#4DA3DB,#7BBFCE,#80C1CF);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg3-example3{
+    background:linear-gradient(30deg,#E0A2FA,#61D1F6,#77F48F);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg4-example3{
+    background:linear-gradient(130deg,#CA5FD3,#D2463E,#EA8651);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg5-example3{
+    background:linear-gradient(60deg,#C999BC,#A89BD8,#727ECD);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg6-example3{
+    background:linear-gradient(60deg,#D0867C,#CF687C,#D18491);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg7-example3{
+    background:linear-gradient(30deg,#D0867C,#CF687C,#D18491);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg8-example3{
+    background:linear-gradient(100deg,#FDF1B5,#D7BE58,#EFC14F);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg9-example3{
+    background:linear-gradient(30deg,#4681BB,#6B5AA1,#C24D94);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg10-example3{
+    background:linear-gradient(0deg,#E2A943,#DE5653,#DA5A92);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg11-example3{
+    background:linear-gradient(100deg,#CED4F7,#F5CBC9,#FEF3C4);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg12-example3{
+    background:linear-gradient(30deg,#A1ECB2,#C5F3D1,#FAECA2);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg13-example3{
+    background:linear-gradient(140deg,#4E5DC2,#4998A8,#6FD486);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg14-example3{
+    background:linear-gradient(140deg,#334C78,#724BBB,#CD897D);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+.bg15-example3{
+    background:linear-gradient(140deg,#698F96,#B9C5B5,#FEFBF1);
+    height:110px;
+    border-radius:20px 20px 20px 20px;
+}
+/*example 3 ends*/
+
+/*example 4 starts*/
+.bg1-example4{
+    background:linear-gradient(100deg,#D63341,#AC2C5E,#862B7F);
+    height:110px;
+    width:400px;
+}
+/*example 4 ends*/
+
+/*example 5 starts*/
+.bg1-example5{
+    background:repeating-radial-gradient(red 10%,blue 20%,green 10%);
+    height:400px;
+    width:400px;
+}    
+/*example 5 ends*/
+
+/*example 6 starts*/
+.bg1-example6{
+    background:linear-gradient(red,yellow,green,aqua,navy,purple);
+    height:400px;
+    width:400px;
+}
+/*example 6 ends*/
+
+/*example 7 starts*/
+.bg1-example7{
+    background:repeating-linear-gradient(90deg,red 10%,blue 20%,green 10%);
+    height:400px;
+    width:400px;
+}
+/*example 7 ends*/
