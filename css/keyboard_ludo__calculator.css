@@ -25,7 +25,6 @@
     margin-right:2px;
     float:left;
     background:white;
-    transition:0.5s;
 }
 .col-s:hover{
     height:100px;
@@ -39,7 +38,6 @@
     background:white;
     color:black;
     box-shadow:5px 5px 5px black inset;
-    transition:0.5s;
 }
 .col-s2{
     height:100px;
@@ -63,7 +61,6 @@
     float:left;
     background:white;
     box-shadow:5px 5px 5px black inset;
-    transition:0.5s;
 }
 .col-s3{
     height:100px;
@@ -87,7 +84,6 @@
     float:left;
     background:white;
     box-shadow:5px 5px 5px black inset;
-    transition:0.5s;
 }
 .col-s4{
     height:100px;
@@ -111,7 +107,6 @@
     float:left;
     background:white;
     box-shadow:5px 5px 5px black inset;
-    transition:0.5s;
 }
 .col-s5{
     height:100px;
@@ -135,7 +130,6 @@
     float:left;
     background:white;
     box-shadow:5px 5px 5px black inset;
-    transition:0.5s;
 }
 .button-inner{
     margin:35px 42px;
@@ -275,14 +269,39 @@
     width:127px;
     border:2px solid black;
 }
-
+.row5_example3{
+    height:42.5px;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+}
+.bgcolor_blue{
+    background:blue;
+}
+.bgcolor_yellow{
+    background:yellow;
+}
+.bgcolor_red{
+    background:red;
+}
+.bgcolor_green{
+    background:green;
+}
+.row6_example3{
+    height:30px;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+}
 .center_box_border{
-    height:0px;
-    width:0px;
+    height:20px;
+    width:20px;
     background:black;
-    border-left:34px solid red;
-    border-right:34px solid green;
-    border-bottom:43px solid blue;
-    border-top:43px solid yellow;
+    border-left:38px solid red;
+    border-right:44px solid green;
+    border-bottom:44px solid blue;
+    border-top:44px solid yellow;
+}
+.test{
+    height:88px;
+    background:red;
 }
 /*example3 ends*/
