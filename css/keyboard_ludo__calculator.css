@@ -292,10 +292,10 @@
     border-bottom:1px solid black;
 }
 .center_box_border{
-    height:20px;
-    width:20px;
+    height:0px;
+    width:0px;
     background:black;
-    border-left:38px solid red;
+    border-left:44px solid red;
     border-right:44px solid green;
     border-bottom:44px solid blue;
     border-top:44px solid yellow;
