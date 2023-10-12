@@ -132,7 +132,9 @@
 
 /*example 7 starts*/
 .bg1-example7{
-    background:repeating-linear-gradient(90deg,red 10%,blue 20%,green 10%);
+    background:linear-gradient(to right, red, red 14.3%, orange 14.3%, orange 28.6%,
+    yellow 28.6%, yellow 42.9%, green 42.9%, green 57.2%, blue 57.2%, blue 71.5%,
+    indigo 71.5%, indigo 85.8%, violet 85.8%,violet);
     height:400px;
     width:400px;
 }
