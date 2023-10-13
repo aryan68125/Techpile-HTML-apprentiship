@@ -1,0 +1,192 @@
+/*example 1 starts*/
+.outer{
+    height:600px;
+    width:1200px;
+    border:1px solid blue;
+    margin:5px auto;
+    background:grey;
+}
+.row1{
+    height:300px;
+    width:1200px;
+}
+.col1{
+    height:260px;
+    width:359px;
+    border:1px solid green;
+    float:left;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    background:white;
+    transition:0.5s;
+}
+.col1:hover{
+    height:260px;
+    width:359px;
+    border:1px solid green;
+    float:left;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    box-shadow:10px 10px 30px black;
+    background:white;
+    transition:0.5s;
+    filter:grayscale(60%);
+}
+.image_tag{
+    height:100%;
+    width:100%;
+    background:url(../images/todoroki.jpg);
+    background-size:cover;
+    border:2px solid black;
+}
+.image_tag2{
+    height:100%;
+    width:100%;
+    background:url(../images/battlefield.jpg);
+    background-size:cover;
+    border:2px solid black;
+}
+.image_tag3{
+    height:100%;
+    width:100%;
+    background:url(../images/vid_thumbnail.png);
+    background-size:cover;
+    border:2px solid black;
+}
+.image_tag4{
+    height:100%;
+    width:100%;
+    background:url(../images/sultan.jpg);
+    background-size:cover;
+    border:2px solid black;
+}
+.image_tag5{
+    height:100%;
+    width:100%;
+    background:url(../images/app.png);
+    background-size:cover;
+    border:2px solid black;
+}
+/*example 1 ends*/
+
+/*example 2 min height starts*/
+.outer_example2{
+    min-height: 450px;
+    width: 600px;
+    border-radius : 20px 20px 20px 20px;
+    background:#a2a8d3;
+    margin:50px auto;
+}
+.row1_example2{
+    height:110px;
+    width:600px;
+    border-radius : 20px 20px 0px 0px;
+    background:#a2a8d3;
+}
+.row1_example2 input{
+    height:100px;
+    width:550px;
+    border:2px solid #a2a8d3;
+    border-radius : 20px 20px 20px 20px;
+    margin:12px auto;
+    margin-left:23px;
+    text-align:right;
+    font-size:40px;
+    box-shadow:5px 5px 20px 5px black inset;
+}
+.col1_example2{
+    width:600px;
+    height:600px;
+    border-right:2px solid black;
+    float:left;
+}
+.row2_example2{
+    height:550px;
+    width: 600px;
+    border-radius : 20px 20px 20px 20px;
+    background:#a2a8d3;
+    margin:50px auto;
+}
+.col2_example2{
+    height:550px;
+    width: 149px;
+    float:left;
+}
+.row3_example2{
+    width:120px;
+    height:120px;
+    border-radius:20px 20px 20px 20px;
+    margin-left:12px;
+    margin-top:12px;
+    margin-bottom:12px;
+    background:white;
+}
+.col_container{
+    padding-top:40px;
+    text-align:center;
+    font-size:30px;
+}
+/*example 2 min height ends*/
+
+/*example3 starts */
+.outer_container{
+    margin:0px auto;
+    width:600px;
+    min-height:100px;
+    border:3px solid #005792;
+    border-radius:20px 20px 20px 20px;
+    background:linear-gradient(30deg,#e0ebeb,#a7bcb9);
+    transition:0.3;
+}
+.outer_container:hover{
+    margin:0px auto;
+    width:600px;
+    min-height:100px;
+    border:3px solid #005792;
+    border-radius:20px 20px 20px 20px;
+    background:linear-gradient(30deg,#e0ebeb,#a7bcb9);
+    box-shadow:10px 10px 10px 10px rgba(255,255,255,0.6),10px 10px 10px 10px rgba(255,255,255,0.9),
+    10px 10px 10px 10px rgba(255,255,255,0.3);
+    transition:0.3;
+}
+.row1-text-alignment{
+    text-align:center;
+    font-size:40px;
+}
+.row2-text-alignment{
+    text-align:center;
+    font-size:20px;
+}
+.theme_text{
+    color:#005792;
+}
+.input_text_box{
+    width:80%;
+    padding-left:130px;
+    height:80px;
+}
+.input_button_box{
+    width:80%;
+    padding-left:130px;
+    height:80px;
+}
+.input_button_box input{
+    background:linear-gradient(90deg, #bbe9db, #35bcbf);
+    border-radius:5px 5px 5px 5px;
+    border:none;
+    color:#2c786c;
+    transition:0.3s;
+}
+.input_button_box input:hover{
+    background:linear-gradient(90deg, #a2c11c, #004445);
+    border-radius:5px 5px 5px 5px;
+    border:2px solid green;
+    box-shadow:5px 5px 10px black;
+    color:black;
+    transition:0.3s;
+}
+/*example3 ends */
