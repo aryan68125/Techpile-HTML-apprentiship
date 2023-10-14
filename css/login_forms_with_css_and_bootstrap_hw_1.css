@@ -527,6 +527,137 @@
 
 /*example 7 starts*/
 .outer_example7{
-    
+    background:grey;
+    padding:50px;
+    width:1100px;
+    height:800px;
+    position:absolute;
+    top:5500px;
+    right:-1050px;
+    transition:all 0.5s;
 }
+.outer_example7:hover{
+    background:grey;
+
+    width:1100px;
+    height:800px;
+    position:absolute;
+    top:5500px;
+    right:0px;
+    transition:all 0.5s;
+}
+.form_example_7{
+    background:black;
+    width:600px;
+    min-height:100px;
+    border-radius:20px 20px 20px 20px;
+    margin:20px auto;
+    transition:all 0.2s;
+}
+.form_example_7:hover{
+    background:white;
+    width:600px;
+    min-height:100px;
+    border-radius:20px 20px 20px 20px;
+    margin:20px auto;
+    box-shadow:10px 10px 20px black;
+
+    transition:all 0.2s;
+}
+.heading_container_example7{
+    width:600px;
+    border-radius:20px 20px 0px 0px;
+    color:white;
+    padding:20px;
+    background:linear-gradient(90deg,#5363C4,#9E338A);
+text-align:center;
+}
+.heading_form_example7{
+    color:white;
+    transition:0.2s;
+}
+.form_example_7:hover .heading_container_example7 .heading_form_example7{
+    color:#3643E1;
+    transition:0.2s;
+}
+.email_input_example7{
+    outline:none;
+    height:50px;
+    width:80%;
+    border-radius:20px 20px 20px 20px;
+
+}
+.checkbox_input_example7{
+    height:20px;
+    width:20px;
+    margin-left:60px;
+}
+
+.remember_text_example7{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    transition:0.2s;
+}
+.form_example_7:hover .remember_text_example7{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    transition:0.2s;
+}
+.forgot_password_example7{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    transition:0.2s;
+}
+.form_example_7:hover .forgot_password_example7{
+    color:blue;
+    font-weight:bold;
+    font-size:20px;
+    transition:0.2s;
+}
+.login_button_example7{
+    height:70px;
+    width:80%;
+    margin-left:60px;
+    border-radius:30px 30px 30px 30px;
+    outline:none;
+    color:white;
+    font-weight:bold;
+    font-size:22px;
+    background:linear-gradient(90deg,#5363C4,#9E338A);
+}
+
+/*gfg test bckground animation*/
+.main__bg {
+    background-image: linear-gradient(-60deg, #404258 50%, #6B728E 50%);
+    animation: slide 3s ease-in-out infinite alternate;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.layer1 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.layer2 {
+    animation-duration: 5s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(25%);
+    }
+}
+/*gfg test bckground animation*/
 /*example 7 ends*/
