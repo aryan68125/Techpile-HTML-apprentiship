@@ -1,0 +1,32 @@
+@keyframes animationname_abc{
+    from{
+        background:red;
+        color:white;
+        border:10px dashed yellow;
+        font-size:80px;
+        box-shadow:10px 10px 10px white;
+        text-shadow:10px 10px 20px rgba(255, 255, 255, 0);
+    }
+to{
+        background:green;
+        color:red;
+        border:10px groove purple;
+        font-size:50px;
+        box-shadow:-10px -10px 10px rgba(255, 255, 255, 0.4);
+        text-shadow:10px 10px 10px rgba(255, 255, 255, 0.6);
+    }
+}
+.heading{
+    color:purple;
+    font-size:80px;
+    text-align:center;
+    border:10px solid black;
+    animation-name:animationname_abc;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+}
+body{
+    background:url(../images/todoroki.jpg);
+    background-size:cover;
+}

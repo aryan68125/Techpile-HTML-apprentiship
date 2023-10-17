@@ -1,0 +1,31 @@
+p:first-child{
+    color:white;
+    background:red;
+    border:3px solid purple;
+}
+p:nth-child(3){
+    color:white;
+    background:black;
+    border:3px solid yellow;
+}
+p:nth-child(4){
+    color:white;
+    background:grey;
+    border:3px solid black;
+}
+p:last-child{
+    color:white;
+    background:purple;
+    border:3px solid red;
+}
+
+/*p:nth-child(odd){*/
+/*    color:white;*/
+/*    border:3px solid black;*/
+/*    background:grey;*/
+/*}*/
+/*p:nth-child(even){*/
+/*    color:white;*/
+/*    border:3px solid yellow;*/
+/*    background:black;*/
+/*}*/
