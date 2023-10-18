@@ -1,0 +1,384 @@
+/*example 1 starts*/
+.inner{
+    height:500px;
+    text-align:left;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: animation_example1 2s infinite alternate;
+}
+.inner:hover{
+    height:500px;
+    text-align:left;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: animation_example1 2s infinite alternate paused;
+}
+.heading_example1{
+    font-size:70px;
+}
+
+@keyframes animation_example1{
+    0%{
+            height:500px;
+            text-align:left;
+            background:black;
+            color:white;
+            padding-top:100px;
+            text-shadow:0px 1px orange, 0px 2px purple, 0px 3px aqua, 0px 4px yellow, 0px 5px red;
+    }
+100%{
+        height:500px;
+        text-align:left;
+        background:black;
+        color:white;
+        padding-top:100px;
+        text-shadow:0px 7px orange, 0px 15px purple, 0px 25px aqua, 0px 40px yellow, 0px 58px red;
+    }
+}
+.column_A{
+    height:500px;
+    width:59px;
+    text-align:right;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: column_A 2s infinite alternate;
+}
+.column_A:hover{
+    height:500px;
+    width:59px;
+    text-align:right;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: column_A 2s infinite alternate paused;
+}
+@keyframes column_A{
+    0%{
+        height:500px;
+        width:59px;
+        text-align:right;
+        background:black;
+        color:white;
+        padding-top:100px;
+        text-shadow:0px 1px orange, 0px 2px purple, 0px 3px aqua, 0px 4px yellow, 0px 5px red;
+    }
+100%{
+        height:500px;
+        width:59px;
+        text-align:right;
+        background:black;
+        color:white;
+        padding-top:100px;
+        text-shadow:0px 5px orange, 0px 9px purple, 0px 13px aqua, 0px 17px yellow, 0px 21px red;
+    }
+}
+
+.column_d{
+    height:500px;
+    width:49px;
+    text-align:right;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: column_d 2s infinite alternate;
+}
+.column_d:hover{
+    height:500px;
+    width:49px;
+    text-align:right;
+    background:black;
+    color:white;
+    padding-top:100px;
+    animation: column_d 2s infinite alternate paused;
+}
+@keyframes column_d{
+    0%{
+        height:500px;
+        width:49px;
+        text-align:right;
+        background:black;
+        color:white;
+        padding-top:100px;
+        text-shadow:0px 1px orange, 0px 2px purple, 0px 3px aqua, 0px 4px yellow, 0px 5px red;
+    }
+100%{
+        height:500px;
+        width:49px;
+        text-align:right;
+        background:black;
+        color:white;
+        padding-top:100px;
+        text-shadow:0px 5px orange, 0px 9px purple, 0px 16px aqua, 0px 28px yellow, 0px 42px red;
+    }
+}
+/*example 1 ends*/
+
+/*example 2 starts*/
+.frame_example2{
+    margin:100px auto;
+}
+.i_am{
+    text-align:right;
+}
+/*
+                     width  height
+    background-size: 300px   50px;
+*/
+.designer{
+    background:url(../images/black_bg.png);
+    background-repeat: no-repeat;
+    background-size: 300px 50px;
+    color:white;
+    text-align:left;
+    animation: animation_bg_example2 2s infinite alternate;
+}
+.designer:hover{
+    background:url(../images/black_bg.png);
+    background-repeat: no-repeat;
+    background-size: 300px 50px;
+    color:white;
+    text-align:left;
+    animation: animation_bg_example2 2s infinite alternate paused;
+}
+@keyframes animation_bg_example2{
+    0%{
+        background:url(../images/black_bg.png);
+        background-repeat: no-repeat;
+        background-size: 0px 50px;
+        color:black;
+        text-align:left;
+    }
+100%{
+        background:url(../images/black_bg.png);
+        background-repeat: no-repeat;
+        background-size: 300px 50px;
+        color:white;
+        text-align:left;
+    }
+}
+/*example 2 ends*/
+
+/*example 3 starts*/
+.frame_example_3{
+    margin:100px auto;
+}
+.flicker_container{
+    background:linear-gradient(30deg, #2E2E2E, #000000);
+    height:500px;
+    width:900px;
+}
+.letter_box_{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+}
+.letter_box_F{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    text-align:left;
+    animation: letter_box_F_animation 1s infinite alternate;
+}
+.letter_box_L{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_L_animation 1s infinite alternate;
+    animation-delay:1s;
+}
+.letter_box_I{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_I_animation 2s infinite alternate;
+    animation-delay:2s;
+}
+.letter_box_C{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_C_animation 1s infinite alternate;
+    animation-delay:3s;
+}
+.letter_box_K{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_K_animation 2s infinite alternate;
+    animation-delay:4s;
+}
+.letter_box_E{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_E_animation 1s infinite alternate;
+    animation-delay:5s;
+}
+.letter_box_R{
+    width:100;
+    height:100;
+    text-align:center;
+    color:white;
+    float:left;
+    margin-top:200px;
+    animation: letter_box_R_animation 2s infinite alternate;
+    animation-delay:6s;
+}
+
+@keyframes letter_box_F_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#6643b5;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_L_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#fd5959;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_I_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#f8b400;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_C_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#4c9173;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_K_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#2772db;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_E_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#a55233;
+        float:left;
+        margin-top:200px;
+    }
+}
+
+@keyframes letter_box_R_animation{
+    0%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:white;
+        float:left;
+        margin-top:200px;
+    }
+100%{
+        width:100;
+        height:100;
+        text-align:center;
+        color:#5c715e;
+        float:left;
+        margin-top:200px;
+    }
+}
+/*example 3 ends*/
