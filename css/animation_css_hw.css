@@ -121,7 +121,20 @@
     margin:100px auto;
 }
 .i_am{
+    padding-left:250px;
+    background:url(../images/black_bg.png);
+    background-repeat: no-repeat;
+    background-size: 660px 55px;
+    color:white;
     text-align:right;
+    animation: animation_bg_2_example2 2s infinite alternate-reverse;
+    animation-delay:2s;
+}
+.row_bg{
+    background:black;
+}
+.designer_col_bg{
+    background:white;
 }
 /*
                      width  height
@@ -130,7 +143,7 @@
 .designer{
     background:url(../images/black_bg.png);
     background-repeat: no-repeat;
-    background-size: 300px 50px;
+    background-size: 300px 56px;
     color:white;
     text-align:left;
     animation: animation_bg_example2 2s infinite alternate;
@@ -138,7 +151,7 @@
 .designer:hover{
     background:url(../images/black_bg.png);
     background-repeat: no-repeat;
-    background-size: 300px 50px;
+    background-size: 300px 56px;
     color:white;
     text-align:left;
     animation: animation_bg_example2 2s infinite alternate paused;
@@ -147,16 +160,35 @@
     0%{
         background:url(../images/black_bg.png);
         background-repeat: no-repeat;
-        background-size: 0px 50px;
+        background-size: 0px 56px;
         color:black;
         text-align:left;
     }
 100%{
         background:url(../images/black_bg.png);
         background-repeat: no-repeat;
-        background-size: 300px 50px;
+        background-size: 300px 56px;
         color:white;
         text-align:left;
+    }
+}
+
+@keyframes animation_bg_2_example2{
+    0%{
+        padding-left:250px;
+        background:url(../images/white_bg.png);
+        background-repeat: no-repeat;
+        background-size: 0px 57px;
+        color:white;
+        text-align:right;
+    }
+100%{
+        padding-left:250px;
+        background:url(../images/white_bg.png);
+        background-repeat: no-repeat;
+        background-size: 660px 57px;
+        color:black;
+        text-align:right;
     }
 }
 /*example 2 ends*/
@@ -257,6 +289,7 @@
         color:white;
         float:left;
         margin-top:200px;
+        text-shadow:0px 0px 0px 0px #6643b5;
     }
 100%{
         width:100;
@@ -265,6 +298,7 @@
         color:#6643b5;
         float:left;
         margin-top:200px;
+        text-shadow:0px 0px 10px 20px #6643b5;
     }
 }
 
