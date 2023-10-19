@@ -23,6 +23,10 @@
     color:white;
     transition:1s;
 }
+.form_background:hover img
+{
+    animation-play-state:paused;
+}
 .form_background:hover .column_form_1{
     color:white;
     transition:1s;
@@ -348,13 +352,16 @@
     animation-delay:0s;
     animation-iteration-count:infinite;
 }
-
+input:focus
+{
+    border:4px solid red;
+}
 @keyframes bubble_animation{
     0%{
         top:-50%;
     }
 100%{
-        top:150%;
+        top:90%;
     }
 }
 .main__bg {
