@@ -1,16 +1,16 @@
 .outer{
     height:520px;
-    width:500px;
+    width:550px;
     margin-top:80px;
 }
 .outer:hover .form_background{
     top:15%;
 }
 .form_background{
-    height:470px;
+    height:490px;
     width:400px;
     margin-left:450px;
-    margin-top:20px;
+    margin-top:10px;
     border-radius:20px;
     background:white;
     color:white;
@@ -31,8 +31,8 @@
     color:white;
     transition:1s;
 }
-.form_background:hover .form_heading span{
-    color:#0092ca;
+.form_background:hover .form_heading_container{
+    width:100%;
     transition:1s;
 }
 .input_div{
@@ -51,8 +51,20 @@
     font-weight:bold;
     color:black;
     padding-top:10px;
+    position:fixed;
+    left:45%;
     transition:1s;
 }
+.form_heading_container{
+    background:url(../images/blue.png);
+    padding-bottom:10px;
+    border-radius:20px 20px 0px 0px;
+    height:70px;
+    width:0%;
+    text-align:center;
+    transition:1s;
+}
+
 .column_form_1{
     font-weight:bold;
     color:black;
