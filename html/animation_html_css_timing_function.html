@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+div{
+height:50px ;
+width:150px;
+background:red;
+border:5px groove yellow;
+line-height:50px;
+font-size:22px;
+font-weight:bold;
+text-align:center;
+color:white;
+animation-name:motion;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+}
+#db1{
+animation-timing-function:linear;
+}
+#db2{
+animation-timing-function:ease;
+background:purple;
+}
+#db3{
+animation-timing-function:ease-in-out;
+background:black;
+}
+#db4{
+animation-timing-function:ease-in;
+background:green;
+}
+#db5{
+animation-timing-function:ease-out;
+background:navy;
+}
+@keyframes motion{
+0%{
+width:0%;
+}
+100%{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<div id="db1">Linear</div>
+<div id="db2">ease</div>
+<div id="db3">ease-in-out</div>
+<div id="db4">ease-in</div>
+<div id="db5">ease-out</div>
+</body>
+</html>
