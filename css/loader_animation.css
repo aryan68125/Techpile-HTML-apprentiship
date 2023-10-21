@@ -1,0 +1,101 @@
+/*example 1 loader starts*/
+.loader_outer_container{
+    margin:100px auto;
+    height:500px;
+    width:500px;
+}
+.loader_outer_ring{
+    height:100px;
+    width:100px;
+    border-left:5px solid grey;
+    border-right:5px solid grey;
+    border-bottom:5px solid grey;
+    border-top:5px solid orange;
+    border-radius:50%;
+    animation-name:animate;
+    animation-duration:230s;
+    animation-itearation-count:infinite;
+    animation-timing-function:linear;
+    margin: 200px auto;
+}
+.loader_inner_ring{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background:orange;
+    position:relative;
+    top:2px;
+    left:3px;
+}
+@keyframes animate{
+    0%{
+        transform:rotateZ(0deg);
+    }
+100%{
+        transform:rotateZ(-10060deg);
+    }
+}
+/*example 1 loader ends*/
+
+/*example 2 starts*/
+.outer_div{
+    margin:100px auto;
+    height:550px;
+    width:550px;
+}
+.row_style{
+    height:250px;
+    width:500px;
+    margin:150px auto;
+    padding:20px
+}
+.col_style1{
+    height:200px;
+    width:95px;
+    background:#407B95;
+    animation-name:loading_animationExample2;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    animation-delay:1.2s;
+    animation-direction:alternate;
+}
+.col_style2{
+    height:200px;
+    width:95px;
+    background:#407B95;
+    animation-name:loading_animationExample2;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    animation-delay:1.4s;
+    animation-direction:alternate;
+}
+.col_style3{
+    height:200px;
+    width:95px;
+    background:#407B95;
+    animation-name:loading_animationExample2;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    animation-delay:1.6s;
+    animation-direction:alternate;
+}
+.col_style4{
+    height:200px;
+    width:95px;
+    background:#407B95;
+    animation-name:loading_animationExample2;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    animation-delay:1.8s;
+    animation-direction:alternate;
+}
+@keyframes loading_animationExample2{
+    0%{
+        transform:scaleY(1);
+    }
+100%{
+        transform:scaleY(1.4);
+        background:#10152E;
+    }
+}
+/*example 2 ends*/
