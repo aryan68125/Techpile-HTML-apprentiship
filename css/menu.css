@@ -1,0 +1,33 @@
+nav{
+    height:70px;
+    width:900px !important;
+    margin:0px auto;
+    border:1px solid black;
+    border-radius:5px;
+    background:rgba(0,0,0,0.7);
+}
+nav ul{
+    list-style:none;
+}
+nav ul a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+nav ul li{
+    float:left;
+    margin-left:20px;
+    text-align:center;
+    transform:translateY(-5px);
+    transition:0.2s;
+    height:70%;
+    width:90px;
+    text-align:center;
+}
+nav ul li:hover{
+    color:black;
+    background:white;
+    transition:0.2s;
+    box-shadow:0px 0px 20px 20px white;
+}

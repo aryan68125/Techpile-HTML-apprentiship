@@ -1,0 +1,71 @@
+<html>
+<head>
+<style>
+#menu{
+height:50px;
+width:740px;
+background:rgba(123,134,232,.4);
+border:1px solid black;
+border-radius:4px;
+margin:0px auto;
+}
+#menu ul {
+list-style:none;
+}
+#menu ul li{
+height:40px;
+width:110px;
+background:rgba(123,134,232,.4);
+text-align:center;
+line-height:40px;
+color:white;
+float:left;
+transform:translateY(-12px);
+
+}
+#menu ul ul{
+margin-left:-40px;
+margin-top:9px;
+display:none;
+transition:all 1s;
+}
+#menu ul li:hover ul
+{
+display:block;
+transition:all 1s;
+}
+#menu ul ul ul{
+margin-left:70px;
+transform:translateY(-40px);
+}
+#menu ul ul:hover ul{
+display:block;
+}
+</style>
+</head>
+<body>
+<div id="menu">
+<ul>
+<a href="#"><li>HOME</li></a>
+<a href="#"><li>ABOUT</li></a>
+<a href="#"><li>SERVICES</li></a>
+<a href="#"><li>REGISTER</li></a>
+<a href="#"><li>GALLARY
+<ul>
+<li>Item1</li>
+<li>Item2</li>
+<li>Item3
+<ul>
+<li>Apple</li>
+<li>oranges</li>
+<li>banana</li>
+</ul>
+</li>
+</ul>
+</li>
+</a>
+<a href="#"><li>LOGIN</li></a>
+</ul>
+</div>
+</body>
+</html>

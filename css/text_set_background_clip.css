@@ -24,14 +24,71 @@ h1{
 }
 @keyframes animation{
     0%{
-        background:linear-gradient(#79c2d0,#142d4c);
+        background:linear-gradient(#EC5A46,#FDEC5A);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+10%{
+        background:linear-gradient(#EE4F34,#FCDD4B);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+
+20%{
+        background:linear-gradient(#EE7F3A,#FBD84A);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+30%{
+        background:linear-gradient(#F09F3E,#F9D349);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+50%{
+        background:linear-gradient(#F2B242,#F7C947);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+60%{
+        background:linear-gradient(#F7C947,#F2B242);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+70%{
+        background:linear-gradient(#F9D349,#F09F3E);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+80%{
+        background:linear-gradient(#FBD84A,#EE7F3A);
+        background-size:cover;
+        -webkit-background-clip:text;
+        -safari-background-clip:text;
+        -moz-background-clip:text;
+    }
+90%{
+        background:linear-gradient(#FCDD4B,#EE4F34);
         background-size:cover;
         -webkit-background-clip:text;
         -safari-background-clip:text;
         -moz-background-clip:text;
     }
 100%{
-        background:linear-gradient(#142d4c,#79c2d0);
+        background:linear-gradient(#FDEC5A,#EC5A46);
         background-size:cover;
         -webkit-background-clip:text;
         -safari-background-clip:text;
