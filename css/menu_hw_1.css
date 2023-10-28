@@ -252,7 +252,7 @@
     transition:0.5s;
 }
 #Contact ul li ul{
-    display:none;
+    opacity:1;
     transition:1s;
     list-style:none;
     height:0%;
@@ -272,3 +272,65 @@
     transition:0.5s;
 }
 /*example 5 ends*/
+
+/*example 6 starts*/
+#menu6{
+    height: 50px;
+    width: 860px;
+    margin: 0px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    margin-bottom:200px;
+}
+#menu6 ul{
+    list-style: none;
+}
+
+#menu6 ul li {
+    height: 40px;
+    width:140px;
+    margin: 1px;
+    text-align: center;
+    line-height: 40px;
+    background: rgba(0, 176, 97, 0.815);
+    color: white;
+    float: left;
+    border: 1px solid  rgba(0, 176, 97, 0.815);
+    box-sizing: border-box;
+    /transform: translateY(-10px);/
+
+}
+
+#menu6 ul li:hover{
+    /* display: block;*/
+
+   opacity: 1;
+   background: rgb(182, 173, 173);
+   transition: all 1s;
+
+}
+
+#menu6 ul ul{
+    margin-left: -40px;
+    margin-top: 1px;
+    opacity: 0;
+  transition: all 1s;
+}
+#menu6 ul ul ul{
+    margin-left: 100px;
+    margin-top: -40px;
+    display:none;
+    transition: all 1s;
+}
+#menu6 ul li:hover ul{
+    opacity: 1;
+    transition:all 1s;
+
+}
+
+#sub1:hover ul{
+    display: block;
+    transition: all 1s;
+}
+/*example 6 ends*/
