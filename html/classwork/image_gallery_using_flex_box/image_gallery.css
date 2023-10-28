@@ -1,0 +1,31 @@
+.image_container{
+    background:#a2a8d3;
+    min-height:600px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+
+}
+.image_box{
+    height:300px;
+    width:300px;
+    background:grey;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    transition:1s;
+}
+.image_box:hover {
+    transform:scale(1.05);
+    box-shadow:7px 7px 10px black;
+    transition:1s;
+}
+.image1{
+    height:100%;
+    width:100%;
+    background:url(../../../images/todoroki.jpg);
+    background-size:cover;
+}
