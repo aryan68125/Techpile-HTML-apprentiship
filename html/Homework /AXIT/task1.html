@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Axit</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="hover.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="task1.css">
+</head>
+<style>
+    body {
+  --main-color: rgb(255, 139, 56);
+  padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.scrolling {
+  background-color: rgba(66, 60, 60, .31);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: var(--main-color);
+}
+
+nav span {
+  color: var(--main-color);
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.bg {
+  background-color: black;
+}
+
+.header {
+  background: url(image.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header .back {
+  background: rgba(0, 0, 0, 0.52);
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+.header .main {
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 70px;
+}
+
+.header div span {
+  color: var(--main-color);
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.header form h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.hdi {
+  color: white;
+  font-weight: 400;
+}
+
+.hdi:after {
+  content: "";
+  display: block;
+  background: white;
+  height: 3px;
+  width: 50px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.disc {
+  font-weight: 400;
+  color: #b5b5b5;
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+.header .but {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+  width: 110px;
+  margin-top: 18px;
+}
+
+.header form {
+  background-color: white;
+  margin-top: 100px;
+  width: 300px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.header form span {
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header form .form-control {
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid gray;
+  outline: 0;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.header form button {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 15px 0px;
+  outline: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.socialmedia {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.socialmedia ul {
+  overflow: hidden;
+}
+
+.socialmedia ul li {
+  float: left;
+  margin-right: 45px;
+  color: #cccccc;
+  transition: all .3s ease;
+}
+
+.socialmedia ul li:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.socialmedia h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: .2em;
+}
+
+.socialmedia p {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray;
+}
+
+.socialmedia:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: gray;
+  width: 100%;
+}
+
+.socialmedia .fa-3x {
+  font-size: 2.3em;
+}
+
+.tabs {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+.tabs button {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border: 0;
+  color: white;
+  background: #333333;
+  border-radius: 3px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  box-shadow: none;
+  outline: 0;
+  transition: all .4s ease;
+  box-shadow: 1px 1px 5px #333333,
+    -1px 0px 5px #333333;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.tabs h2 {
+  font-size: 21px;
+  font-weight: 899;
+  margin-bottom: 40px;
+}
+
+.tabs p {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray;
+}
+
+.tabs .down {
+  background-color: var(--main-color);
+  box-shadow: none;
+  width: 100px;
+  height: 36px;
+  font-size: 13px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 3px;
+  border-radius: 3px;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.tabs .colorbut {
+  background: var(--main-color);
+}
+
+.subb {
+  padding-top: 100px;
+  height: auto;
+}
+
+.subb img {
+  box-shadow: 0 4px 10px #424242;
+  margin-bottom: 10px;
+}
+
+.subb h3 {
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.subb h3:after {
+  content: "";
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 2px;
+  width: 70px;
+  background: var(--main-color);
+}
+
+.subb p {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray;
+}
+
+.subb .col-lg-6>p {
+  margin-bottom: 40px;
+}
+
+.subb .media-bod {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 20px;
+}
+
+.media-bod h5 {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subb i {
+  content: "\f382";
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: #ff8b38;
+  border: 2px solid;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+}
+
+.subb2 {
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.subb2 h3:after {
+  content: "";
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 2px;
+  width: 80px;
+  background: var(--main-color);
+}
+
+.subb2>.col-lg-6 {
+  padding-left: 30px;
+}
+
+.subb2 p {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray;
+}
+
+.subb2 h3 {
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.subb2 img {
+  box-shadow: 0 4px 10px #424242;
+}
+
+.awesome {
+  padding-top: 100px;
+  height: auto;
+}
+
+.awesome h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.awesome h2:after {
+  content: "";
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  height: 2px;
+  width: 50px;
+  background: var(--main-color);
+}
+
+.awesome p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
+.awesome .first {
+  margin-bottom: 80px;
+}
+
+.awesome h3 {
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.awesome i {
+  width: 70px;
+  height: 70px;
+  background: white;
+  color: #ff8b38;
+  line-height: 65px;
+  border: 2px solid;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+
+
+.head2 {
+  margin-top: 30px;
+}
+
+.text {
+  padding-top: 100px;
+  height: auto;
+}
+
+.text img {
+  border-radius: 50%;
+}
+
+.text p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
+.text .media {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+.text .container>p {
+  margin-bottom: 70px;
+}
+
+.text h2:after {
+  content: "";
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  height: 2px;
+  width: 50px;
+  background: var(--main-color);
+}
+
+.text h5 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.text .col-lg-4>p {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  
+}
+
+.stylish {
+  margin-top: 100px;
+  background: url(1281_barcelona-1923686.original.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 280px;
+  height: auto;
+}
+
+.stylish .back {
+  background: rgba(0, 0, 0, 0.53);
+  min-height: 280px;
+}
+
+.stylish h2 {
+  padding-top: 60px;
+  font-size: 35px;
+  font-weight: 400;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.stylish h2:after {
+  content: "";
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  height: 2px;
+  width: 50px;
+  background: white;
+}
+
+.stylish button {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+  width: 110px;
+  margin-top: 15px;
+}
+
+.stylish p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
+.contactus {
+  margin-top: 50px;
+  height: auto;
+}
+
+.contactus p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+  padding-bottom: 40px;
+}
+
+.contactus h2:after {
+  content: "";
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  height: 2px;
+  width: 50px;
+  background: var(--main-color);
+}
+
+.contactus h2 {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: 400;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contactus button {
+  background-color: var(--main-color);
+  box-shadow: none;
+  width: 120px;
+  height: 36px;
+  font-size: 13px;
+  color: white;
+  margin: 35px auto;
+  border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  display: block;
+}
+
+.contactus input {
+  margin-bottom: 25px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--main-color);
+  outline: 0;
+}
+
+.contactus textarea {
+  height: 166px;
+  border: 1px solid var(--main-color);
+  transition: all .4s ease;
+}
+
+.contactus textarea:focus {
+  height: 166px;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  height: auto;
+}
+
+.footer ul {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer ul li {
+  margin-right: 25px;
+  color: white;
+  display: inline-block;
+}
+
+.footer i {
+  font-size: 1.6em;
+}
+
+.footer p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(173, 173, 173, 0.9);
+  z-index: 9999;
+  display: none;
+}
+
+.popup .popup-min {
+  height: 420px;
+  width: 300px;
+  background: white;
+  position: fixed;
+  top: 50%;
+  margin-top: -210px;
+  left: 50%;
+  margin-left: -150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.popup .popup-min button {
+  background-color: var(--main-color);
+  box-shadow: none;
+  width: 180px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  margin: 50px auto 10px auto;
+  border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  display: block;
+}
+
+.popup .popup-min .close {
+  float: right;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--main-color);
+  opacity: .5;
+  transition: all .3s ease;
+}
+
+.popup .popup-min .close:hover {
+  opacity: 1;
+  color: var(--main-color);
+}
+
+.popup .popup-min h2 {
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  clear: both;
+}
+
+.popup .popup-min input {
+  margin-bottom: 25px;
+  margin-top: 50px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--main-color);
+  outline: 0;
+}
+
+.popup .popup-min .fa-edit:before {
+  content: "\f044";
+  margin-right: 4px;
+}
+</style>
+<body>
+  <!-- ****START NAVBAR****-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg">
+    <div class="container">
+      <a class="navbar-brand" href="#">AX<span>IT</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-4">
+            <a class="nav-link data" href="#" data-scroll="feature">Features <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link data" href="#" data-scroll="about">About</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link data" href="#" data-scroll="price">Pricing</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link data" href="#" data-scroll="reviews">Reviews</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link data" href="#" data-scroll="contact">Contant</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ****END NAVBAR****-->
+  <!-- ****START HEADER****-->
+  <section class="header">
+    <div class="back">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 col-sm-12">
+            <h2 class="h1 main">AX<span>IT</span></h2>
+            <p class="h3 hdi">MODERN AXURE TEMPLATE <br>FOR BEAUTIFULL PROTOTYPES</p>
+            <p class="lead disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim <br>veniam Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="but">Download</button>
+          </div>
+          <div class="col-md-6 col-xs-12 col-sm-12">
+            <form class="d-block mr-auto ml-auto">
+              <h2 class="text-center">Try Your <span>FREE</span> Trial Today</h2>
+              <input type="text" name="username" placeholder="Name" class="form-control">
+              <input type="email" name="email" placeholder="Email" class="form-control">
+              <input type="password" name="password" placeholder="Password" class="form-control">
+              <button type="button" name="button" class="btn-block btn-lg">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****END HEADER****-->
+  <!-- ****START SOCIALMEDIA****-->
+  <section class="socialmedia">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>Social Media</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+        <div class="col-md-7 mt-1">
+          <ul class="list-unstyled">
+            <li><i class="fab fa-facebook-f fa-3x"></i></li>
+            <li><i class="fab fa-twitter fa-3x"></i></li>
+            <li><i class="fab fa-google-plus-g fa-3x"></i></li>
+            <li><i class="fab fa-pinterest fa-3x"></i></li>
+            <li><i class="fab fa-instagram fa-3x"></i></li>
+            <li><i class="fab fa-snapchat-ghost fa-3x"></i></li>
+            <li><i class="fab fa-twitch fa-3x"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****END SOCIALMEDIA****-->
+  <!-- ****START TABS****-->
+  <section class="tabs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <button type="button" class="colorbut">TAB 1</button>
+          <button type="button" class="">TAB 2</button>
+          <button type="button" class="">TAB 3</button>
+        </div>
+        <div class="col-lg-5">
+          <h2>Tabs with soft transitioning effect.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempofggr incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit<br> <br> <br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          <button class="down btn" name="button" type="button">Download</button>
+        </div>
+        <div class="col-lg-4">
+          <img src="City-landscape.png" alt="city" width="270px" height="100px" class="img-fluid d-block mr-auto ml-auto  mt-5">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****END TABS****-->
+  <!-- ****START SUB****-->
+  <section class="subb current" id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="hong-kong-morning-kiyoshi-hijiki.jpg" alt="img" width="370px" height="270px" class="img-fluid d-block mr-auto ml-auto mt-5">
+        </div>
+        <div class="col-lg-6">
+          <h3>Sub List Section</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicineiusmod tempor incididunt<br> ut labore et dolore magna aliqua. veniam, quis nostrud exercitation <br>ullamco laboris nisi ut aliquip exr.</p>
+          <div class="media-bod">
+            <div class="row">
+              <div class="col-lg-1 col-sm-1">
+                <i class="fas fa-cloud-upload-alt"></i>
+              </div>
+              <div class="col-lg-10 ml-4   col-sm-10">
+                <h5>Tittle</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur , sed do eiusmod tempor ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              </div>
+            </div>
+            <div class="media-bod">
+              <div class="row">
+                <div class="col-lg-1 col-sm-1">
+                  <i class="fas fa-cloud-download-alt"></i>
+                </div>
+                <div class="col-lg-10 ml-4  col-sm-10">
+                  <h5>Tittle</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br>do eiusmod ut labore et dolore magna aliqua. Ut enim <br>ad minim veniam quis nostrud.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="subb2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="d-block mr-auto ml-auto">Standard Picture Section</h3>
+          <p class="d-block mr-auto ml-auto">Lorem ipsum dolor sit amet, consectetur adipisicineiusmod tempor incididunt ut labore et dolore magna aliqua. veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exr Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="hong-kong-morning-kiyoshi-hijiki.jpg" alt="img" width="370px" height="270px" class="img-fluid d-block mr-auto ml-auto mt-auto">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****END SUB****-->
+  <!-- ****START AWESOME****-->
+  <section class="awesome text-center current" id="about">
+    <div class="container">
+      <h2 class="h1 text-center">WHY THIS IS AWESOME</h2>
+      <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     
+    </div>
+  </section>
+  <!-- ****END AWESOME****-->
+   
