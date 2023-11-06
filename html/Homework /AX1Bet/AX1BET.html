@@ -1,0 +1,313 @@
+<html>
+    <head>
+        <style>
+            *
+            {
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+                font-family:sans-serif;
+            }
+            body
+            {
+                max-width:1920px;
+                margin:0 auto;
+            }
+            .container
+            {
+                width:100%;
+            }
+            .header
+            {
+                width:100%;
+
+            }
+            .nav
+            {
+                width:100%;
+                background-color:black;
+                display:flex;
+                justify-content:space-between;
+                padding:0 7%;
+                align-items:center;
+            }
+            .nav .nav-logo
+            {
+                width:100px;
+            }
+            .nav nav a
+            {
+                color:white;
+                font-size:17px;
+                text-decoration:none;
+                margin:0 25px;
+                transition:.5s;
+            }
+            .nav nav a:hover
+            { 
+              color:orange;
+            }
+            .header header
+            {
+                width:100%;
+                height:40vw;
+                background-image:url('../build.jpg');
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            .header header .header-layer
+            {
+                background-color:rgba(0,0,0,.4);
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding:0 7%;
+            }
+            .header-left h4
+            {
+             color:white;
+             font-size:30px;
+             font-weight:normal;
+             margin:20px 0;
+            }
+            .header-left .header-line
+            {
+              width:70px;
+              height:5px;
+              background-color:white;
+              display:block;
+            }
+            .haeder-left p
+            {
+                font-size:15px;
+                letter-spacing:1px;
+                color:lightgrey;
+                line-height:20px;
+                margin:30px 0;
+            }
+            .header-left .download-button
+            {
+                background-color:transparent;
+                border:2px solid white;
+                color:white;
+                font-size:18px;
+                padding:7px 18px;
+                margin-top:20px;
+            }
+            .header-right
+            {
+                width:100%;
+            }
+            .header-right form
+            {
+                background-color:white;
+                width:350px;
+                margin:0 auto;
+                border-radius:10px;
+            }
+            .header-right form h1
+            {
+                font-size:18px;
+                text-align-last:center;
+                background-color:#f5f5f5;
+                color:#474747;
+                padding:10px 0;
+                border-top-left-radius:10px;
+                border-top-right-radius:10px;
+            }
+            .header-right form h1 span
+            {
+                color:#ff8b38;
+            }
+            .header-right form input
+            {
+                display:block;
+                margin:30px auto;
+                width:70%;
+                border-bottom:1px solid lightgrey;
+                border:none;
+                padding:10px 0;
+            }
+            .header-right form input::placeholder
+            {
+                color:lightgrey;
+            }
+            .header-right form a
+            {
+                display:block;
+                width:100%;
+                text-align-last:center;
+                background-color:#ff8b38;
+                color:white;
+                text-decoration:none;
+                padding:20px 0;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius:10px;
+            }
+            .social-left h2
+            {
+                font-size:18px;
+            }
+            .social-left p
+            {
+                font-size:15px;
+                color:grey;
+            }
+            .tabs-area
+            {
+                background-color:#f5f5f5;
+                display:grid;
+                grid-template-columns:15% 50% 35%;
+                padding:100px 7%;
+                align-items:center;
+            }
+            .tabs .tab:nth-child(1)
+            {
+                background-color:#ff8b38;
+            }
+            .tabs
+            {
+                
+                width:90px;
+                height:90px;
+                margin:5px 0;
+                text-align-last:center;
+                line-height:90px;
+                font-weight:bold;
+                color:white;
+                background-color:black;
+                font-size:14px;
+                border-radius:3px;
+            }
+            .tab-texts p
+            {
+               text-align:justify;
+               margin:20px 0;
+               color:grey;
+               font-size:13px;
+            }
+            .tab-img img
+            {
+                display:block;
+                width:70%;
+                margin:0 auto;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="nav">
+                    <div class="logo" class="nav-logo">
+                        <img src="../axit.jpg"/>
+                    </div>
+                    <nav>
+                        <a href="#">Features</a>
+                        <a href="#">About</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Reviews</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+                <header>
+                    <div class="header-layer">
+                        <div class="header-left" >
+                            <img src="../axit.jpg" class="header-logo"/>
+                            <h4>MODERN AXURE TEMPLATE<span class="left-br"></br></span> FOR BEAUTIFUL PROTOTYPES</h4>
+                            <span class="header-line"></span>
+                            <p style="color:white;">Lorem ipsum dolor sit amet ,consectetur adipiscing elit,
+                                <span class="left-br"></br></span>Anean jj hdhd jdjddj 
+                                nddndjnjnjdjndj ndjnjdnjd njjdd </p>
+                                <button class="download-button">Download</button>
+                            
+                        </div>
+                        <div class="header-right">
+                            <form>
+                            <h1>Try Your <span>FREE</span>Trial Today</h1>
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Password">
+                            <a href="#">Get Started</a>
+                        </form>
+                        </div>
+
+                    </div>
+                    
+                </header>
+                <div class="social-media">
+                    <div class="social-left">
+                        <h2>Social Media </h2>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipisscing wlit.Lore
+                            ispum dolor sit</p>
+                    </div>
+                    <div class="social-right">
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook-f fa-beat-fade"></i>
+                            <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-area">
+                    <div class="tabs">
+                        <div class="tab">
+                            TAB1
+                        </div>
+                        <div class="tab">
+                            TAB2
+                        </div>
+                        <div class="tab">
+                            TAB3
+                        </div>
+                    </div>
+                    <div class="tab-text">
+                        <h3>Tabs with soft transitiong Effect</h3>
+                        <p> Its a DML Command.It is used to add new records to the table.
+                            By using insert a new row is added to the table.It can not be used to add any 
+                            particular column value to a pre-existing row .</p>
+                            <p> Its a DML Command.It is used to add new records to the table.By using insert a new row
+                                 is added to the table.It can not be used to add any 
+                                 particular column value to a pre-existing row .</p>
+                                 <div class="tab-download-btn"> </div>             
+                    </div>
+                    <div class="tab-img">
+                        <img src="../building1.jpg"/>
+                    </div>
+                </div>
+                <div class="feature2">
+                    <div class="feature2-img">
+                        <img src="../building2.jpg"/>
+                    </div>
+                    <div class="feature2-txt">
+                        <h3>Sub List Section</h3>
+                        <span class="feature-2-line"></span>
+                        <p> Its a DML Command.It is used to add new records to the table.
+                            By using insert a new row is added to the table.It can not be used to add any 
+                            particular column value to a pre-existing row </p>
+                            <div class="feature-title-1">
+                                <div class="ft-title-1-icon">
+
+                                </div>
+                            </div>
+                            <div class="feature-title-2">
+                                
+                            </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </body>
+</html>
