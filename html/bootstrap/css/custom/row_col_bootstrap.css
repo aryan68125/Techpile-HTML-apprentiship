@@ -1,0 +1,16 @@
+.row_style{
+    height:100px;
+}
+.col_style{
+    height:100%;
+}
+
+.row_style2{
+    height:200px;
+}
+.col_style2{
+    height:200%;
+}
+.inner_row{
+    height:90%;
+}

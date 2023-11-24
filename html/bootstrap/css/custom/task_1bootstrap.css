@@ -1,0 +1,37 @@
+:root{
+    --mycolor:purple;
+}
+.text-mycolor{
+    color:var(--mycolor)!important;
+}
+.bg-mycolor{
+    background: var(--mycolor) !important;
+    color:white !important;
+}
+
+.t1{
+    height:30px;
+}
+/*giving font awesome some custom style*/
+.ic{
+    height:25px;
+    width:25px;
+    border : 2px solid white;
+    padding:.5%;
+    transition:0.5s;
+    border-radius:3px;
+}
+.ic:hover{
+    background:var(--mycolor);
+    transition:0.5s;
+    transform:rotate(360deg);
+    border-radius:3px;
+}
+/*giving font awesome some custom style*/
+
+/*header section starts here*/
+.header{
+    background:#e8e8ff;
+    min-height: 45px;
+}
+/*header section ends here*/
