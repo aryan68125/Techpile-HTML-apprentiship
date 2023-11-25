@@ -34,4 +34,70 @@
     background:#e8e8ff;
     min-height: 45px;
 }
+.search_box_style{
+    margin-top:2%;
+}
+#menu li a{
+    color:black;
+    transition:1s;
+}
+#menu li a:hover{
+    color:var(--mycolor);
+    transition:1s;
+}
 /*header section ends here*/
+
+/*Services section starts*/
+.services{
+background:#e7e7fe;
+display:flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+}
+.s{
+    min-height:150px;
+    background:white;
+}
+.col_style_services{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Services section ends*/
+
+/*footer starts*/
+.footer_one{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_one_left{
+    font-weight:bold;
+}
+.footer_one_right{
+ width:fit-content;
+}
+.links{
+    border:0px solid white;
+    transition:1s;
+}
+.links:hover{
+    border-bottom: 2px solid white;
+    transition:1s;
+}
+.footer_bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fic{
+    height:55px;
+    width:55px;
+    border : 2px solid white;
+    padding:.10%;
+    transition:0.5s;
+    border-radius:50%;
+}
+/*footer ends*/
