@@ -78,7 +78,7 @@ width:100%;
 
 /*About us section*/
 .about_us_heading{
-    transform:rotate(90deg);
+    transform:rotate(0deg);
     display:flex;
     align-items: center;
     justify-content:center;
