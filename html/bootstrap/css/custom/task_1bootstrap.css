@@ -51,21 +51,45 @@
 .services{
 background:#e7e7fe;
 display:flex;
-align-items:center;
-justify-content: center;
-flex-direction: column;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width:100%;
 }
-.s{
-    min-height:150px;
-    background:white;
+.container_style{
+    height:90%;
+    width:90%;
 }
-.col_style_services{
+.services_col_style{
+    height:100%;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
     align-items: center;
+    justify-content: center;
+}
+.services_col_inner{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
 }
 /*Services section ends*/
+
+/*About us section*/
+.about_us_heading{
+    transform:rotate(90deg);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.col_image_aboutus{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*About us section*/
 
 /*footer starts*/
 .footer_one{
